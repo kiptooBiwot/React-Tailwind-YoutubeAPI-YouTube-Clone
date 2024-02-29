@@ -56,7 +56,7 @@ const PlayVideo = () => {
   }, [videoData])
   // console.log('CHANNEL Comments', comments)
   return (
-    <div className="basis-[94%] mx-auto md:basis-[69%]">
+    <div className="basis-[94%] mx-auto md:mx-0 md:basis-[69%]">
       {/* <video src={video1} controls autoPlay muted className="w-[100%]"></video> */}
       <iframe
         className="w-full h-[50vw] md:h-[37vw]"

@@ -80,7 +80,7 @@ const Recommended = ({ categoryId }) => {
   // ]
 
   return (
-    <div className="hidden md:basis-[30%]">
+    <div className="hidden md:block md:basis-[30%]">
       <div>
         {apiData?.map((video) => {
           return (
